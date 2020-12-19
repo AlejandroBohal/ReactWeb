@@ -6,8 +6,8 @@ const PrimeraApp = ( {saludo,subtitulo} ) => {
     return( 
         <>
             {/*<pre>{ JSON.stringify(saludo,null,3) }</pre>*/}
-            <h2> {saludo} </h2>
-            <p> {subtitulo}</p>
+            <h2>{saludo}</h2>
+            <p>{subtitulo}</p>
             
         </>
     );

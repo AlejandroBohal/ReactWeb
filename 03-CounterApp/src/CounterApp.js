@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 const CounterApp = ({value = 10}) => {
 
-    const [counter,setCounter] = useState(0); // [counter,setCounter]
+    const [counter,setCounter] = useState(value); // [counter,setCounter]
     
     // handleAdd
     const handleAdd = () => setCounter( counter+1 ); //setCounter ( (counter) => counter+1);
@@ -23,7 +23,7 @@ const CounterApp = ({value = 10}) => {
     );
 }
 CounterApp.propTypes = {
-    value: PropTypes.number.isRequired
+    value: PropTypes.number
 }
  
 export default CounterApp;
