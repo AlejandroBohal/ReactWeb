@@ -1,7 +1,7 @@
 
 export const getGifs = async(query) => {
-    const api_key = 'osnHAL3DoKnd9xFBtc72aUboCfVWGznZ';
-    const endPoint = 'https://api.giphy.com/v1/gifs/search'
+    const api_key = process.env.REACT_APP_api_key;
+    const endPoint = `${process.env.REACT_APP_giphyHost}/search`;
     const url = `${endPoint}?api_key=${api_key}&q=${query}&limit=10`;
     const res = await fetch(url);
     const {data} = await res.json();
