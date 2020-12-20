@@ -15,7 +15,7 @@ const CategoryAdd = ({setCategories}) => {
         e.preventDefault();
 
         if(inputValue.trim().length > 2){
-            setCategories(categories => [...categories,inputValue] );
+            setCategories(categories => [inputValue,...categories] );
             setInputValue('');
         }else{
             alert('Minimun Category length 2 is required')
