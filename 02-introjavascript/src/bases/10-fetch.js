@@ -1,6 +1,6 @@
 //fetch api
 
-const apiKey = '07jxD5yUNBCLH6F5U9mMMDE9QkswyKNC';
+const apiKey = process.env.REACT_APP_api_key;
 
 const peticion = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
 
