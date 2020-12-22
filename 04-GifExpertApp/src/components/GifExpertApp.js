@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import CategoryAdd from './CategoryAdd';
+import AddCategory from './AddCategory';
 import GifGrid from './GifGrid';
 
 const GifExpertApp = () => {
@@ -12,7 +12,7 @@ const GifExpertApp = () => {
     return (
         <>
           <h2>GifExpertApp</h2>
-          <CategoryAdd setCategories={setCategories}></CategoryAdd>
+          <AddCategory setCategories={setCategories}></AddCategory>
           <hr/>
           <ol>
               { 

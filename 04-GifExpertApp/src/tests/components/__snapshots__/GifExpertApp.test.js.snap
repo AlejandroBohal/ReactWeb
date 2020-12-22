@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifExpertApp component should load <GifExpertApp /> correctly 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <CategoryAdd
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
