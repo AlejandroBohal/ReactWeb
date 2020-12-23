@@ -5,10 +5,32 @@ exports[`Testing GifExpertApp component should load <GifExpertApp /> correctly 1
   <h2>
     GifExpertApp
   </h2>
-  <CategoryAdd
+  <AddCategory
     setCategories={[Function]}
   />
   <hr />
   <ol />
+</Fragment>
+`;
+
+exports[`Testing GifExpertApp component should load default categories 1`] = `
+<Fragment>
+  <h2>
+    GifExpertApp
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Hello"
+      key="Hello"
+    />
+    <GifGrid
+      category="World"
+      key="World"
+    />
+  </ol>
 </Fragment>
 `;
