@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { TodoApp } from './Components/08-useReducer/TodoApp';
+import { MainApp } from './Components/09-useContext/MainApp';
+
 // import { HookApp } from './HookApp';
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
@@ -16,7 +17,7 @@ import { TodoApp } from './Components/08-useReducer/TodoApp';
 
 
 ReactDOM.render(
-  <TodoApp/>,
+  <MainApp/>,
   document.getElementById('root')
 );
 
