@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MainApp } from './Components/09-useContext/MainApp';
+import { TodoApp } from './Components/08-useReducer/TodoApp';
+
+
 
 // import { HookApp } from './HookApp';
 // import { CounterApp } from './components/01-useState/CounterApp';
@@ -17,7 +19,7 @@ import { MainApp } from './Components/09-useContext/MainApp';
 
 
 ReactDOM.render(
-  <MainApp/>,
+  <TodoApp/>,
   document.getElementById('root')
 );
 
